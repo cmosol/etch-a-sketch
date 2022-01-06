@@ -8,7 +8,7 @@ function init(){
         for (let j = 0; j<20; j++){
             const square = document.createElement('div');
             square.setAttribute('class','square');
-            square.setAttribute('id',i+"x"+j);
+            square.setAttribute('id','clear');
             square.style.backgroundColor="#dbdbdb";
             square.style.height="30px";
             square.style.width="30px"; 
