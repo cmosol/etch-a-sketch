@@ -1,19 +1,35 @@
 .grid {
     display:flex;
+    flex-grow: 0;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    padding: 30px;
+    gap: 1px;
+    
     
 }
 
 .row {
     display: flex;
-    justify-content: center;
-    gap: 2px;
+    gap: 1px;
 }
 
 .square{
     border-radius: 2px;
 }
+
+.ui {
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#clear #bw #color #eraser{
+    border: none;
+}
+
