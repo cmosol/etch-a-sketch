@@ -33,9 +33,7 @@ function init() {
     const squares = document.querySelectorAll('.square');
     btns.forEach((button) => {
         button.addEventListener('click', function () {
-            console.log("in button event");
             if (button.id==='clear') {
-                console.log("in clear")
                 squares.forEach((square) =>{
                     square.style.backgroundColor="#dbdbdb";
                     square.setAttribute('id','clear');
