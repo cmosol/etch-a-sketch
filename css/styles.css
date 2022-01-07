@@ -45,6 +45,15 @@ body {
     border-radius: 3px;
 }
 
+#clear:hover, #bw:hover, #color:hover, #eraser:hover {
+    background-color: rgba(22, 86, 182, 0.849);
+}
+
+#clear:active, #bw:active, #color:active, #eraser:active {
+    background-color: rgba(22, 86, 182, 0.849);
+    transform: translateY(1px);
+}
+
 .footer {
     display: flex;
     background-color: #dbdbdb;
